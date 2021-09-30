@@ -4,7 +4,7 @@ from apscheduler.schedulers.background import BlockingScheduler
 from apscheduler.triggers.cron import CronTrigger
 def main():
     try:
-        #以下内容复制粘贴
+        #替换以下内容
         url = ''
         cookies = {
             'td_cookie': '3760',
@@ -29,7 +29,7 @@ def main():
             ('c', '88157'),
         )
         response = requests.post(url, headers=headers, params=params, cookies=cookies, verify=False)
-        # 以上内容复制粘贴
+        # 替换以上内容
     except Exception:
         a = time.ctime()[4:].replace(' ', '-')
         with open('signIn_logs.txt', mode='a', encoding='utf-8') as f:
