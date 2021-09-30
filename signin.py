@@ -5,7 +5,7 @@ from apscheduler.triggers.cron import CronTrigger
 def main():
     try:
         #以下内容复制粘贴
-        url = 'http://a.luxury/user/checkin'
+        url = ''
         cookies = {
             'td_cookie': '3760',
             'uid': '47',

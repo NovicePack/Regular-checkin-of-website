@@ -21,7 +21,7 @@
 
 ```python
  #替换以下内容
-        url = 'http://a.luxury/user/checkin'
+        url = ''
         cookies = {
             'td_cookie': '3760',
             'uid': '47',
