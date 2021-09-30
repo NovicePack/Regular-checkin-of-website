@@ -7,26 +7,26 @@ def main():
         #以下内容复制粘贴
         url = 'http://a.luxury/user/checkin'
         cookies = {
-            'td_cookie': '3753938660',
-            'uid': '1602747',
-            'email': 'novice',
-            'key': '1b7a89fbcd8cd74553c5a68b2383c82d8eeb398a1d894',
-            'ip': '432e00a605f95d7747c5cb15a43d9dcc',
-            'expire_in': '1633018232',
-            'PHPSESSID': 'puhjurmdrl6hpa68kevprdvqpf',
-            'crisp-client%2Fsession%2F57fad162-9de4-4d4b-94ba-c5c2f345cf0e': 'session_90b24fa7-08f9-4cd9-ac90-7f8cbc758ebb',
+            'td_cookie': '3760',
+            'uid': '47',
+            'email': 'ie',
+            'key': '1b7a82383c82d8eeb398a1d894',
+            'ip': '432e005cb15a43d9dcc',
+            'expire_in': '16332',
+            'PHPSESSID': 'purdvqpf',
+            'crisp-client%2Fcf0e': 'session_90b24fa7-08f9-458ebb',
         }
         headers = {
-            'Connection': 'keep-alive',
+            'Connection': 'ke,
             'Content-Length': '0',
-            'Accept': 'application/json, text/plain, */*',
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36',
-            'Origin': 'http://a.luxury',
-            'Referer': 'http://a.luxury/user',
-            'Accept-Language': 'zh-CN,zh;q=0.9',
+            'Accept': 'applicatn, */*',
+            'User-Agent': 'MozillKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36',
+            'Origin': 'httury',
+            'Referer': 'htt/user',
+            'Accept-Language': 'zh-=0.9',
         }
         params = (
-            ('c', '0.6313279893588157'),
+            ('c', '88157'),
         )
         response = requests.post(url, headers=headers, params=params, cookies=cookies, verify=False)
         # 以上内容复制粘贴
